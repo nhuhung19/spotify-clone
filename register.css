@@ -1,0 +1,165 @@
+body {
+    color: gray;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav img {
+    margin-top: 15px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    text-align: center;
+    max-width: 480px;
+    width: 480px;
+    height: 100%;
+}
+
+.register-form button {
+    width: 320px;
+    height: 40px;
+    background-color: #3B5998;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.instruction-content {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 470px;
+    height: 50px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.date-of-birth {
+    display: flex;
+    justify-self: start;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.input-date-of-birth {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-day {
+    padding-left: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.input-month {
+    padding-left: 10px;
+    width: 220px;
+    height: 55px;
+}
+
+.input-year {
+    font-size: 13px;
+    padding-left: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.radio {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.radio input {
+    margin-right: 10px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    font-size: 13px;
+}
+
+.authorizaion {
+    margin-top: 15px;
+}
+
+.condition {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.condition a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(48, 221, 109);
+}
+
+.detail-infomation {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.detail-infomation>a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(48, 221, 109);
+}
+
+.question {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.question>a {
+    text-decoration: none;
+    color: rgb(48, 221, 109);
+}
+
+#btn-signup {
+    margin-top: 15px;
+    width: 320px;
+    height: 40px;
+    background-color: rgb(48, 221, 109);
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#btn-signup:focus {
+    outline: none;
+}
