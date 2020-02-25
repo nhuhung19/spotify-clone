@@ -91,9 +91,14 @@ section {
 
 footer {
     height: 430px;
+    display: flex;
     background-color: black;
-    padding-left: 120px;
-    padding-right: 120px;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
 }
 
 .row {
@@ -139,7 +144,7 @@ li a {
 .footer-icon {
     display: flex;
     position: absolute;
-    right: 50px;
+    right: 0px;
     top: 80px;
     align-items: center;
 }
